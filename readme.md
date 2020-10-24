@@ -9,14 +9,23 @@ The database is structured as follows:
 
 ### Instructions
 
-We will be trying to predict if a customer will be renting a film this month based on their previous activity and other details. We will first construct a table with:
+In this lab we will find the customers who were active in consecutive months of May and June. Follow the steps to complete the analysis. 
 
-- Customer ID
-- City
-- Most rented film category
-- Total films rented
-- Total money spent
-- How many films rented last month
+- Create a table rentals_may to store the data from rental table with information for the month of May
 
-and try to predict if he will be renting this month.
-Use date range (`15/05/2005` - `30/05/2005`) for last month and (`15/06/2005` - `30/06/2005`) for this month.
+- Insert values in the table rentals_may using the table rental, filtering values only for the month of May
+
+- Create a table rentals_june to store the data from rental table with information for the month of June
+
+- Insert values in the table rentals_june using the table rental, filtering values only for the month of June 
+
+- Check the number of rentals for each customer for May  
+
+- Check the number of rentals for each customer for June 
+
+- Create a python connection with SQL database and retrieve the results of the last two queries (also mentioned below) as dataframes 
+
+    - Check the number of rentals for each customer for May
+    - Check the number of rentals for each customer for June
+
+- Write a function that checks if customer borrowed more or less books in the month of June as compared to May
