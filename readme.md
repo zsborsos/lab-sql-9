@@ -25,7 +25,7 @@ In this lab we will find the customers who were active in consecutive months of 
 
 - Create a python connection with SQL database and retrieve the results of the last two queries (also mentioned below) as dataframes 
 
-a. Check the number of rentals for each customer for May
-b. Check the number of rentals for each customer for June
+    - Check the number of rentals for each customer for May
+    - Check the number of rentals for each customer for June
 
 - Write a function that checks if customer borrowed more or less books in the month of June as compared to May
